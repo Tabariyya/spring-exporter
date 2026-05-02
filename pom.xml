@@ -11,8 +11,8 @@
     <description>used for easy exporting to csv and other formats</description>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -60,6 +60,9 @@
             <artifactId>poi-ooxml</artifactId>
             <version>5.2.5</version>
         </dependency>
+
+
+
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
@@ -90,9 +93,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.waleed</groupId>
+            <groupId>com.tabariyya</groupId>
             <artifactId>utils</artifactId>
-            <version>development</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
